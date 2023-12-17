@@ -3,6 +3,8 @@
 
 ## Prerequisites
 
+General note: Please avoid folder-names and filenames containing non-ASCII (special/accented/foreign) characters for the installed tools and your exported projects. Some build-tools and terminals/OS-es don't handle those characters well or interpret them differently, which can cause issues during the build-process.
+
 - Get and install ESP-IDF toolchain and its dependencies.
   [ESP-IDF Get started](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
 
